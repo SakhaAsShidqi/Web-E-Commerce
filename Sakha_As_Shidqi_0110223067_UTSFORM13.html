@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=tab, initial-scale=1.0">
+    <title></title>
+</head>
+    <style>
+    input[type="text"] {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      text-align: right;
+    }
+
+    input[type="submit"] {
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: right;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+      float: right;
+    }
+    .container {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 30px;
+    }
+    .div style {
+        margin-top: 0%;
+        text-align: 0%;
+        justify-content: left;
+        padding-top: 0%;
+    }
+</style>
+
+<body>
+    <fieldset style="background-color: aquamarine;">
+        <table border="1">
+            <div class="container">
+                <input type="text" name="search">
+                <input type="submit" value="search">
+            </div>
+            <div style="position: relative; top: 0%;">
+            <h1>Cari Sivitas Akademik</h1>
+                <p>Nama Lengkap : Sakha As Shidqi</p>
+                <p>Asal Prodi : Teknik Informatika</p>
+                <p>Status : Mahasiswa</p>
+                <form>Jenis Kendaraan :
+                    <input type="radio" name="age">Motor
+                    <input type="radio" name="age">Mobil
+                </form>
+                <br>
+                <br>
+                <label for="NoPol">NoPol :</label>
+                <input type="text">
+                <br>
+                <br>
+                <label for="Merk">Merk :</label>
+                <input type="text">
+                <br>
+                <br>
+                <label for="Upload Stnk">Upload Stnk :</label>
+                <input type="file" name="Browse" id="Browse">
+                <br>
+                <br>
+                <input type="submit" value="Daftar">
+            </div>
+        </table>
+    </fieldset>
+</body>
+</html>
